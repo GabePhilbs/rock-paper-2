@@ -96,15 +96,31 @@
 						}
 
 						// testing if gamestus is being altered
-						gameStatus =playRound(gameStatus,players,hands);
-						console.log(gameStatus);
+						//gameStatus =playRound(gameStatus,players,hands);
+						//console.log(gameStatus);
 
 
 			// * * A GAME  * *
 
 
+			// when initiating a new game, the array hands must be referenced
+			// also, two places must be chosen from the playerList e.g. (hands,playerList[0],playerList[1])
+			function playGame(hands, player1,player2){
 
-			function playGame(hands, players){
+
+				//the 
+				var players =[player1, player2];
+
+				// the 4th number of this array is the number of round wins required to win the game
+				var gameStatus = [0,0,0,3];
+
+
+
+
+
+
+
+
 
 
 

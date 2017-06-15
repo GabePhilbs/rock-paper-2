@@ -5,7 +5,7 @@
 			// * * THE PLAYERS * *
 
 
-						var players = [
+						var playerList = [
 
 
 						{
