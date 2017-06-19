@@ -59,7 +59,9 @@
 					var roundWinner =3;						
 
 					//display current round and players hands
-					console.log("Round "+ gameStatus[2] +": " +players[0].name + " chose " + roundStatus[0][1] + " and " + players[1].name + " chose " + roundStatus[1][1] );
+					console.log("Round "+ gameStatus[2] +": " +players[0].name +
+					 " chose " + roundStatus[0][1] + " and " + players[1].name + 
+					 " chose " + roundStatus[1][1] );
 					
 
 					//in case of draw, a message is displayed and nobody scores
@@ -73,7 +75,9 @@
 						} else {  
 									
 
-									if (   ((roundStatus[0][0] == 0) &&  (roundStatus[1][0] == 2))   ||  ((roundStatus[0][0] > roundStatus[1][0]) && ( roundStatus[0][0] != 2 ||  roundStatus[1][0] != 0))) {
+									if (   ((roundStatus[0][0] == 0) &&  (roundStatus[1][0] == 2))   ||
+									  ((roundStatus[0][0] > roundStatus[1][0]) && ( roundStatus[0][0] != 2 ||
+									    roundStatus[1][0] != 0))) {
 											//establishes player 1 as winner
 											roundWinner = 0;
 									
