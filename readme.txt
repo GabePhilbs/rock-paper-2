@@ -8,13 +8,13 @@
  	- Just insert more layers in the playersList
  	-the game will include them all in the tournament
 
- 	
+ # I used index numbers to define the winner. This way, the weapons array can be altered and the code still works.
 
 
-# because of the NATURE of the TOURNAMENT -- one of every two players is eliminated, and the remaining number must still be even
+# Because of the NATURE of the TOURNAMENT -- one of every two players is eliminated, and the remaining number must still be even
   until only one is left -- the number of players must be a POWER of 2
 
-# the program works in layers 
+# The program works in layers 
   	- round
   	- game - as many rounds as it take for one player to achieve the minimum victories
   	- matchmaking  - makes every player get in a game
@@ -25,7 +25,7 @@
 # I have separated the players from the code, 
 	- Data can be inserted in the list, without exposing the actual code to mistakes
 
-#Separated javascript from Html
+# Separated javascript from Html
 
 # The game calls the hand choice from each player's object
 	- there is a generic hand choice function, which is referred by the objects
@@ -38,7 +38,7 @@
 	-if something breaks the code, executing the tests in order will help locate the issue
 
 
-# all players included are either a former James Bond, or an actor from the movie 12 angry men
+# All players included are either a former James Bond, or an actor from the movie 12 angry men
 	-I needed names, so I inserted Bonds
 	-Then i needed 12 more so...
 

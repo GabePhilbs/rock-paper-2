@@ -99,7 +99,7 @@
 							}
 						},
 						{
-							name:'Robert',
+							name:'Bob',
 							//function to generate hand
 							getHand: function(hands){
 								hand =genericGetHand(hands);
