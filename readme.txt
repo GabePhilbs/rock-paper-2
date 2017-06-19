@@ -21,6 +21,8 @@
   	- tournament - makes as many matches as needed in orther to eliminate all but one player
 
 
+# Players wins, rounds players, and the wins required to win a game are stored in an array called gameStatus
+
 
 # I have separated the players from the code, 
 	- Data can be inserted in the list, without exposing the actual code to mistakes
